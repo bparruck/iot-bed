@@ -107,8 +107,6 @@ gatttool --device=64:33:DB:9A:08:1F --char-write-req --handle=0x0020 --value e5f
 # Massage Head Add
 gatttool --device=64:33:DB:9A:08:1F --char-write-req --handle=0x0020 --value e5fe1600080000fe
 ```
-These are the commands we'll use to control the device in a [script for our IoT Device](./03_IOT_DEVICE.md)
-
 The commands may not succeed on the first try:
 ```
 gatttool --device=64:33:DB:9A:08:1F --char-write-req --handle=0x0020 --value e5fe1600000008fe
@@ -116,3 +114,4 @@ connect error: Function not implemented (38)
 gatttool --device=64:33:DB:9A:08:1F --char-write-req --handle=0x0020 --value e5fe1600000008fe
 Characteristic value was written successfully
 ```
+These are the commands we'll use to control the device in a [script for our IoT Device](./03_IOT_DEVICE.md)
