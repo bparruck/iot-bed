@@ -34,7 +34,7 @@ Here is a diagram of what we'll be building:
 Jump to each of this guide:
 
 - [Sniffing the BLE Protocol](./docs/01_BLE_SNIFFING.md)
-- [Controlling with CHIP or Raspberry Pi 3](./docs/02_BLE_CONTROL.md)
+- [Controlling with Raspberry Pi 3](./docs/02_BLE_CONTROL.md)
 - [Create AWS IoT Device](./docs/03_IOT_DEVICE.md)
 - [Create AWS Lambda Function](./docs/04_LAMBDA.md)
 - [Create the Custom Alexa Skill](./docs/05_ALEXA_SKILL.md)
