@@ -101,12 +101,12 @@ Try to send some of the captured commands to the device like this:
 
 ```
 # Flat Preset
-gatttool -b 68:9E:19:12:7E:7F --char-write --handle=0x0020 --value e5fe1600000008fe
+gatttool -b 68:9E:19:12:7E:7F --char-write-req --handle=0x0020 --value e5fe1600000008fe
 ```
 
 ```
 # Massage Head Add
-gatttool -b 68:9E:19:12:7E:7F --char-write --handle=0x0020 --value e5fe1600080000fe
+gatttool -b 68:9E:19:12:7E:7F --char-write-req --handle=0x0020 --value e5fe1600080000fe
 ```
 
 These are the commands we'll use to control the device in a [script for our IoT Device](./03_IOT_DEVICE.md)
