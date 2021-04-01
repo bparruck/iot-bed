@@ -1,4 +1,4 @@
-# AWS IoT Device for Serta MP III BLE Bed
+# AWS IoT Device for Sleep Science Q-Plus Adjustable Base
 
 In this section we'll create an [AWS IoT](https://aws.amazon.com/iot/) thing used to control the bed using [Thing Shadows](http://docs.aws.amazon.com/iot/latest/developerguide/iot-thing-shadows.html). The overall IoT workflow is illusrated in the diagram below from AWS:
 
