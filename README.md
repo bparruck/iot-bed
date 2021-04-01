@@ -4,7 +4,7 @@
 
 The Sleep Science Q-Plus Adjustable Base bed frame can be controlled via Bluetooth LE from either the provided remote controls or the mobile app for Android and iOS. The product is actually built by [Southbay International](https://southbayinternational.com/) and sold as Sleep Science.
 
-![Sleep Science Q-Plus Adjustable Bed](./docs/img/bed-rc.png)
+![Sleep Science Q-Plus Adjustable Bed](./docs/img/bed.png)
 
 One of the disadvantages of the wireless remote is that if you are trying to get comfortable, moving around to find the remote and hunt for the buttons in the dark just to adjust the bed is pretty counter intuitive IMO. The mobile app experience is even worse as you have to find your phone, unlock it, open the app and manually pair the device each time before you can even start adjusting the position. Ew.
 
