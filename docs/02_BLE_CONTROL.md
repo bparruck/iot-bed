@@ -1,6 +1,6 @@
 # Controlling Q-Plus Base with BLE
 
-You need a bluetooth adapter with BLE support. The [Raspberry Pi 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) and [CHIP](https://getchip.com/pages/chip) single board computers have an integrated bluetooth LE module that you can use to control the base.
+You need a bluetooth adapter with BLE support. The [Raspberry Pi 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) or other single board computers have an integrated bluetooth LE module that you can use to control the base.
 
 ### Scanning for the base
 
@@ -101,12 +101,18 @@ Try to send some of the captured commands to the device like this:
 
 ```
 # Flat Preset
-gatttool -b 68:9E:19:12:7E:7F --char-write-req --handle=0x0020 --value e5fe1600000008fe
+gatttool --device=64:33:DB:9A:08:1F --char-write-req --handle=0x0020 --value e5fe1600000008fe
 ```
-
 ```
 # Massage Head Add
-gatttool -b 68:9E:19:12:7E:7F --char-write-req --handle=0x0020 --value e5fe1600080000fe
+gatttool --device=64:33:DB:9A:08:1F --char-write-req --handle=0x0020 --value e5fe1600080000fe
 ```
-
 These are the commands we'll use to control the device in a [script for our IoT Device](./03_IOT_DEVICE.md)
+
+The commands may not succeed on the first try:
+```
+gatttool --device=64:33:DB:9A:08:1F --char-write-req --handle=0x0020 --value e5fe1600000008fe
+connect error: Function not implemented (38)
+gatttool --device=64:33:DB:9A:08:1F --char-write-req --handle=0x0020 --value e5fe1600000008fe
+Characteristic value was written successfully
+```
