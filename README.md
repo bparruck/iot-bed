@@ -6,7 +6,7 @@ The Sleep Science Q-Plus Adjustable Base bed frame can be controlled via Bluetoo
 
 ![Sleep Science Q-Plus Adjustable Bed](./docs/img/bed-rc.png)
 
-One of the disadvantages of the wireless remote is that if you are trying to get comfortable, moving around to find the remote and hunt for the buttons in the dark just to adjust the bed is pretty counter intuitive IMO. The mobile app experience is even worse as you have to find your phone, unlock it, open the app and manually pair the device each time before you can even start adjusting the position. Ew.
+One of the disadvantages of the wireless remote is that if you are trying to get comfortable, moving around to find the remote and hunt for the buttons in the dark just to adjust the bed is pretty counter intuitive IMO. The mobile app experience is about the same.
 
 The purpose of this project is to maximize consumer laziness and create a voice activated adjustable bed. Yes, the perfect weekend project for a software engineer and casual wireless hacker.
 
