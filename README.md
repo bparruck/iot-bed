@@ -1,8 +1,8 @@
-# Serta Motion Perfect III BLE IoT Integration
+# Sleep Science Q-Plus Adjustable Bed BLE IoT Integration
 
 ## Background
 
-The Serta Motion Perfect III adjustable base bed frame can be controlled via Bluetooth LE from either the provided remote controls or the mobile app for Android and iOS. The product is actually built by [Ergomotion](http://www.ergomotion.com/Support/Serta) and sold by Serta.
+The Sleep Science Q-Plus Adjustable Base bed frame can be controlled via Bluetooth LE from either the provided remote controls or the mobile app for Android and iOS. The product is actually built by [Ergomotion](http://www.ergomotion.com/Support/Serta) and sold by Serta.
 
 ![Sera Motion Perfect III](./docs/img/serta_motion_perfect.jpg)
 
