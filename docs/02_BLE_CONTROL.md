@@ -1,4 +1,4 @@
-# Controlling Serta MP III with BLE
+# Controlling Q-Plus Base with BLE
 
 You need a bluetooth adapter with BLE support. The [Raspberry Pi 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) and [CHIP](https://getchip.com/pages/chip) single board computers have an integrated bluetooth LE module that you can use to control the base.
 
